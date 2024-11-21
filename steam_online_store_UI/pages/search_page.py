@@ -29,7 +29,7 @@ class SearchPage:
 
     def should_find_zero_game_in_not_successful_search(self):
         with allure.step(f'Проверяем, что не было найдено ни одной игры'):
-            browser.element('.search_results_count').should(have.text('Результатов по вашему запросу: 0.'))
+            browser.element('.search_results_count').should(have.text('0 results match your search.'))
 
 
 search_page = SearchPage()

@@ -5,7 +5,7 @@ import allure
 class MainPage:
 
     def __init__(self):
-        self.login_button = browser.all('.global_action_link').element_by(have.text('войти'))
+        self.login_button = browser.all('.global_action_link').element_by(have.text('login'))
         self.language_button = browser.element('#language_pulldown')
 
     def open_main_page(self):

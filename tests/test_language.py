@@ -12,7 +12,7 @@ from allure_commons.types import Severity
 def test_for_changing_language():
     main_page.open_main_page()
     main_page.click_on_language_button()
-    main_page.choose_language('english')
+    main_page.choose_language('french')
 
-    main_page.should_change_language_the_language_selection_button(language_button='language')
-    main_page.should_change_language_the_install_steam_button(install_steam_button='Install Steam')
+    main_page.should_change_language_the_language_selection_button(language_button='langue')
+    main_page.should_change_language_the_install_steam_button(install_steam_button='Installer Steam')

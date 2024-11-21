@@ -24,7 +24,7 @@ class AuthorisationPage:
     def should_authorization_error_text_appear(self):
         with allure.step('Должен появиться текст ошибки авторизации'):
             browser.element('._1W_6HXiG4JJ0By1qN_0fGZ').should(
-                have.text('Пожалуйста, проверьте свой пароль и имя аккаунта и попробуйте снова.'))
+                have.text('Please check your password and account name and try again.'))
 
 
 authorisation_page = AuthorisationPage()

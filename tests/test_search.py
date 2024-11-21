@@ -14,7 +14,7 @@ def test_game_appears_in_the_dropdown_list():
     main_page.open_main_page()
     search_page.type_game_name_in_search_field('Spider-man')
 
-    search_page.should_game_appear_in_dropdown_list('Marvel Человек-Паук 2')
+    search_page.should_game_appear_in_dropdown_list("Marvel's Spider-Man 2")
 
 
 @allure.tag('web')
@@ -26,7 +26,7 @@ def test_successful_search_game():
     main_page.open_main_page()
     search_page.find_game('Spider-man')
 
-    search_page.should_game_appear_in_search_result('Marvel Человек-Паук 2')
+    search_page.should_game_appear_in_search_result("Marvel's Spider-Man 2")
 
 
 @allure.tag('web')

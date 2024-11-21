@@ -6,7 +6,7 @@ class CartPage:
 
     def __init__(self):
         self.add_to_cart_button = browser.element('.btn_addtocart')
-        self.move_to_cart_button = browser.all('[type="button"]').element_by(have.text('Открыть корзину'))
+        self.move_to_cart_button = browser.all('[type="button"]').element_by(have.text('View My Cart'))
         self.clear_cart_button = browser.element('._12zYFuKO2U-1QfeVxlGfwF')
 
     def add_game_to_cart(self):
@@ -27,7 +27,7 @@ class CartPage:
 
     def check_empty_cart(self):
         with allure.step('Проверяем что корзина пустая.'):
-            browser.element('.EflKs0JjldhDSxbUBaiOp').should(have.text('Ваша корзина пуста.'))
+            browser.element('.EflKs0JjldhDSxbUBaiOp').should(have.text('Your cart is empty.'))
 
 
 cart_page = CartPage()
