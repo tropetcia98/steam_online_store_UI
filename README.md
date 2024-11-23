@@ -1,4 +1,5 @@
 # Проект по автоматизации тестирования Steam
+![main page screenshot](steam_online_store_UI/images/steam.png)
 
 ## Стек технологий 
 <p align="left">
@@ -30,3 +31,22 @@
 - Проверка поиска товара
 - Проверка появления ошибки при поиске некорректного товара
 - Проверка появления ошибки при авторизации с ошибочными данными
+## Запуск автотестов реализуется с помощью jenkins 
+> [Ссылка на сборку в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
+> ### Для запуска автотестов в Jenkins
+1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
+
+![jenkins job main page](steam_online_store_UI/images/Открыли джобу дженкинс.png)
+
+2. Нажать "**Build Now**".
+### Allure отчёт
+Allure формирует подробный отчет о прогоне тестов. Видим общую статистику и результат каждого теста
+[Allure_page](steam_online_store_UI/images/Allure-отчет.png)
+В отчете пишется каждый шаг теста, тесты формируются по категориям, в конце приложен скриншот, логи, page-source и видео-запись прогона теста
+[Allure_result](steam_online_store_UI/images/Результат прохождения теста, allure.png)
+
+### Отчёт в telegram c помощью бота
+
+### Видео прохождения тестов на selenoid
+
+
