@@ -48,6 +48,6 @@ Allure формирует подробный отчет о прогоне тес
 ### Отчёт в telegram c помощью бота
 
 ### Видео прохождения тестов на selenoid
-[Video selenoid](steam_online_store_UI/images/Video_selenoid_test.gif)
+![Video selenoid](steam_online_store_UI/images/Video_selenoid_test.gif)
 
 
