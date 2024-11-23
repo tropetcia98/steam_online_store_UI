@@ -41,9 +41,9 @@
 2. Нажать "**Build Now**".
 ### Allure отчёт
 Allure формирует подробный отчет о прогоне тестов. Видим общую статистику и результат каждого теста
-[Allure page](steam_online_store_UI/images/Allure-report_screenshot.png)
+![Allure page](steam_online_store_UI/images/Allure-report_screenshot.png)
 В отчете пишется каждый шаг теста, тесты формируются по категориям, в конце приложен скриншот, логи, page-source и видео-запись прогона теста
-[Allure result](steam_online_store_UI/images/result_tests_allure.png)
+![Allure result](steam_online_store_UI/images/result_tests_allure.png)
 
 ### Отчёт в telegram c помощью бота
 
