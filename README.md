@@ -49,6 +49,7 @@
 
 ### Видео прохождения тестов на selenoid
 > <code>Selenoid</code> пишет видео прогона каждого теста и видео прикладывается в отчет <code>Allure</code>
+>
 ![Video selenoid](steam_online_store_UI/images/Video_selenoid_test.gif)
 
 
