@@ -36,14 +36,14 @@
 > ### Для запуска автотестов в Jenkins
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
-![jenkins job main page](steam_online_store_UI/images/Открыли джобу дженкинс.png)
+![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
 
 2. Нажать "**Build Now**".
 ### Allure отчёт
 Allure формирует подробный отчет о прогоне тестов. Видим общую статистику и результат каждого теста
-[Allure_page](steam_online_store_UI/images/Allure-отчет.png)
+[Allure page](steam_online_store_UI/images/Allure-report_screenshot.png)
 В отчете пишется каждый шаг теста, тесты формируются по категориям, в конце приложен скриншот, логи, page-source и видео-запись прогона теста
-[Allure_result](steam_online_store_UI/images/Результат прохождения теста, allure.png)
+[Allure result](steam_online_store_UI/images/result_tests_allure.png)
 
 ### Отчёт в telegram c помощью бота
 
