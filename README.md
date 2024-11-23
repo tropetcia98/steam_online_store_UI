@@ -39,7 +39,7 @@
 ![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
 
 2. Нажать "**Build Now**".
-### Allure отчёт
+## Allure отчёт
 >Allure формирует подробный отчет о прогоне тестов. Видим общую статистику и результат каждого теста
 >
 ![Allure page](steam_online_store_UI/images/Allure-report_screenshot.png)
