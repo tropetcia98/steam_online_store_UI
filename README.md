@@ -33,7 +33,7 @@
 - Проверка появления ошибки при авторизации с ошибочными данными
 ## Запуск автотестов реализуется с помощью [jenkins](https://www.jenkins.io/) 
 
-> ### Для запуска автотестов в Jenkins
+### Для запуска автотестов в Jenkins
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
 ![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
@@ -48,5 +48,6 @@ Allure формирует подробный отчет о прогоне тес
 ### Отчёт в telegram c помощью бота
 
 ### Видео прохождения тестов на selenoid
+[Video selenoid](steam_online_store_UI/images/Video_selenoid_test.gif)
 
 
