@@ -31,8 +31,8 @@
 - Проверка поиска товара
 - Проверка появления ошибки при поиске некорректного товара
 - Проверка появления ошибки при авторизации с ошибочными данными
-## Запуск автотестов реализуется с помощью jenkins 
-> [Ссылка на сборку в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
+## Запуск автотестов реализуется с помощью [jenkins](steam_online_store_UI/images/Результат прохождения теста, allure.png) 
+
 > ### Для запуска автотестов в Jenkins
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
