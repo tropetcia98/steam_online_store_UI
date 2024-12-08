@@ -88,14 +88,14 @@ ___
   - В разделе **Source Code Management** в пункте **Git** директорию текущего проекта и ветку `main`
   - В **Build Steps**:
     * Создать файл `.env` по примеру `.env.example`, указав для него опции **Create at Workspace**  и **Overwrite file**
-       ```
     * Создать **Execute shell** с кодом:
-     python -m venv .venv
+      ```shell
+         python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 pytest .
       ```
-      - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
+  - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
     * Добавление оповещений в **Telegram** может быть добавлено
     дополнительно
 
