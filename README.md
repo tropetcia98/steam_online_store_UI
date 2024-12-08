@@ -2,17 +2,67 @@
 ![main page screenshot](steam_online_store_UI/images/steam.png)
 
 ## Стек технологий 
-<p align="left">
-<img align="center" src="steam_online_store_UI/images/python-original-wordmark.svg" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/AllureReport.png" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/AllureTestOps.png" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/Selene.png" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/Telegram.png" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/jenkins-original.svg" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/pycharm-original.svg" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/pytest-original-wordmark.svg" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/selenium-original.svg" width="40" height="40" alt="Python"/>
-<img align="center" src="steam_online_store_UI/images/selenoid.png" width="40" height="40" alt="Python"/>
+<table width="100%" border='0'>
+  <tbody>
+    <tr>
+      <td>Язык программирования, IDE</td>
+      <td align="center">
+        <a target="_blank" href="https://www.python.org/">
+          <img align="center" src="steam_online_store_UI/images/python-original-wordmark.svg" width="40" height="40" alt="Python"/>
+        </a>
+        <a target="_blank" href=https://www.jetbrains.com/pycharm/>
+          <img align="center" src="steam_online_store_UI/images/pycharm-original.svg" width="40" height="40" alt="PyCharm"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Библиотеки, фреймворки для написания тестов</td>
+      <td align="center">
+        <a target="_blank" href=https://www.selenium.dev/>
+          <img align="center" src="steam_online_store_UI/images/selenium-original.svg" width="40" height="40" alt="Selenium"/>
+        </a>
+        <a target="_blank" href=https://github.com/yashaka/selene>
+          <img align="center" src="steam_online_store_UI/images/Selene.png" width="40" height="40" alt="Selene"/>
+        </a>
+        <a target="_blank" href=https://docs.pytest.org/en/stable/index.html#>
+          <img align="center" src="steam_online_store_UI/images/pytest-original-wordmark.svg" width="40" height="40" alt="Pytest"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Запуск тестов
+      </td>
+      <td align="center">
+        <a target="_blank" href=https://www.jenkins.io/>
+          <img align="center" src="steam_online_store_UI/images/jenkins-original.svg" width="40" height="40" alt="Jenkins"/>
+        </a>
+        <a target="_blank" href=https://github.com/aerokube/selenoid>
+          <img align="center" src="steam_online_store_UI/images/selenoid.png" width="40" height="40" alt="Selenoid"/>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Формирование отчета и отправление уведомлений
+      </td>
+      <td>
+        <a target="_blank" href=https://qameta.io/>
+          <img align="center" src="steam_online_store_UI/images/AllureTestOps.png" width="40" height="40" alt="Allure TestOps"/>
+        </a>
+        <a target="_blank" href=https://allurereport.org/>
+          <img align="center" src="steam_online_store_UI/images/AllureReport.png" width="40" height="40" alt="Allure Report"/>
+        </a>
+        <a target="_blank" href=https://telegram.org/>
+          <img align="center" src="steam_online_store_UI/images/Telegram.png" width="40" height="40" alt="Telegram"/>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+___
+<a id="item-4"></a>
 
 В данном проекте автотесты написаны на <code>Python</code> с использованием <code>Selenium</code>, <code>Selene</code> и <code>Pytest</code> для UI-тестов
 >
