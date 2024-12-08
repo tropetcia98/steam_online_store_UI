@@ -48,7 +48,7 @@
 >
 ![Allure result](steam_online_store_UI/images/result_tests_allure.png)
 
-## Отчёт в telegram c помощью бота
+## <img width="4%" title="Telegram" src="steam_online_store_UI/images/bot_screenshot.jpg"> Отчет в Telegram с помощью бота
 >
 > После прогона всех тестов в <code>Telegram</code> чат автоматически приходит сообщение с полной информацией о прогоне и ссылкой на <code>Allure</code>
 >
