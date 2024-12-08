@@ -91,9 +91,9 @@ ___
     * Создать **Execute shell** с кодом:
       ```shell
          python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest .
+         source .venv/bin/activate
+         pip install -r requirements.txt
+         pytest .
       ```
   - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
     * Добавление оповещений в **Telegram** может быть добавлено
