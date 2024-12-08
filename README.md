@@ -82,7 +82,7 @@ ___
 - Проверка появления ошибки при поиске некорректного товара
 - Проверка появления ошибки при авторизации с ошибочными данными
 
-## Для запуска проекта удаленно с использованием **Jenkins** и **Selenoid** необходимо:
+## Для запуска проекта удаленно с использованием **Jenkins** необходимо:
 - Создать новый проект в **Jenkins**
 - Указать в **Confugure** проекта:
   - В разделе **Source Code Management** в пункте **Git** директорию текущего проекта и ветку `main`
@@ -90,11 +90,10 @@ ___
     * Создать файл `.env` по примеру `.env.example`, указав для него опции **Create at Workspace**  и **Overwrite file**
     * Создать **Execute shell** с кодом:
       ```shell
-      python -m venv .venv
-      source .venv/bin/activate
-      pip install poetry
-      poetry install
-      env_context='selenoid' pytest
+     python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest .
       ```
       - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
     * Добавление оповещений в **Telegram** может быть добавлено
