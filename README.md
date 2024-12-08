@@ -81,7 +81,6 @@ ___
 - Проверка поиска товара
 - Проверка появления ошибки при поиске некорректного товара
 - Проверка появления ошибки при авторизации с ошибочными данными
-## Запуск автотестов реализуется с помощью [jenkins](https://www.jenkins.io/) 
 
 ## Для запуска проекта удаленно с использованием **Jenkins** и **Selenoid** необходимо:
 - Создать новый проект в **Jenkins**
@@ -101,7 +100,7 @@ ___
     * Добавление оповещений в **Telegram** может быть добавлено
     дополнительно
 
-## Запуск в Jenkins
+## Запуск автотестов с помощью [jenkins](https://www.jenkins.io/) 
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
 ![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
