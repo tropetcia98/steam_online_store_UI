@@ -88,6 +88,7 @@ ___
   - В разделе **Source Code Management** в пункте **Git** директорию текущего проекта и ветку `main`
   - В **Build Steps**:
     * Создать файл `.env` по примеру `.env.example`, указав для него опции **Create at Workspace**  и **Overwrite file**
+       ```
     * Создать **Execute shell** с кодом:
      python -m venv .venv
 source .venv/bin/activate
