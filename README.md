@@ -52,9 +52,7 @@
 >
 > После прогона всех тестов в <code>Telegram</code> чат автоматически приходит сообщение с полной информацией о прогоне и ссылкой на <code>Allure</code>
 >
-<p>
 ![bot autotests](steam_online_store_UI/images/bot_screen.png)
-</p>
 
 ## Видео прохождения тестов на selenoid
 > <code>Selenoid</code> пишет видео прогона каждого теста и видео прикладывается в отчет <code>Allure</code>
