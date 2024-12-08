@@ -83,7 +83,23 @@ ___
 - Проверка появления ошибки при авторизации с ошибочными данными
 ## Запуск автотестов реализуется с помощью [jenkins](https://www.jenkins.io/) 
 
-### Для запуска автотестов в Jenkins
+## Для запуска проекта удаленно с использованием **Jenkins** и **Selenoid** необходимо:
+- Создать новый проект в **Jenkins**
+- Указать в **Confugure** проекта:
+  - В разделе **Source Code Management** в пункте **Git** директорию текущего проекта и ветку `main`
+  - В **Build Steps**:
+    * Создать файл `.env` по примеру `.env.example`, указав для него опции **Create at Workspace**  и **Overwrite file**
+    * Создать **Execute shell** с кодом:
+      ```shell
+      python -m venv .venv
+      source .venv/bin/activate
+      pip install poetry
+      poetry install
+      env_context='selenoid' pytest
+      ```
+      - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
+    * Добавление оповещений в **Telegram** может быть добавлено
+    дополнительно
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
 ![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
