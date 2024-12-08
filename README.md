@@ -100,6 +100,8 @@ ___
       - В **Post-build Actions** добавить опцию **Allure Report** с указанием пути `allure-results`
     * Добавление оповещений в **Telegram** может быть добавлено
     дополнительно
+
+## Запуск в Jenkins
 1. Открыть [задачу в Jenkins](https://jenkins.autotests.cloud/job/romanshkin_14_steam_online_store_ui/)
 
 ![jenkins job main page](steam_online_store_UI/images/Joba_jenkins.png)
