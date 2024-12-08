@@ -123,5 +123,6 @@ ___
 >
 >H * * * *
 >
+![build periodically](steam_online_store_UI/images/build_periodically_jenkins.jpeg)
 
 
