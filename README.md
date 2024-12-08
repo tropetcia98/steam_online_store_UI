@@ -49,6 +49,8 @@
 ![Allure result](steam_online_store_UI/images/result_tests_allure.png)
 
 ## Отчёт в telegram c помощью бота
+>
+![bot_autotests](steam_online_store_UI/images/bot_screenshot.jpg)
 
 ## Видео прохождения тестов на selenoid
 > <code>Selenoid</code> пишет видео прогона каждого теста и видео прикладывается в отчет <code>Allure</code>
