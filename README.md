@@ -89,7 +89,6 @@ ___
   - В **Build Steps**:
     * Создать файл `.env` по примеру `.env.example`, указав для него опции **Create at Workspace**  и **Overwrite file**
     * Создать **Execute shell** с кодом:
-      ```shell
      python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
